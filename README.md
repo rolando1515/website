@@ -1,38 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ATOMIC DESIGN
 
-## Getting Started
+This is an article with a simple introduction to Atomic Design [link](https://paulonteri.com/thoughts/atomic-design-react).
+In the article you'll see links to other sources of documentation and insights on Atomic Design.
 
-First, run the development server:
+## THOUGHTS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The web was initially very page by page focused, you made requests to a backend that served you HTML pages rendered by the browser.
+With the move to more Frontend Frameworks where your content was available client side and adapted to responses from external sources (apis, browsers, etc).
+The need for a more modern architecture for structuring applications was created and Atomic Design was implemented.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It works closely to the principle of Chemistry.
+Atoms build up Molecules, Molecules build up Components, Components build up templates and templates build up pages.
+We won't be as verbose or granular, we will work witk components & containers (while collating the UI in Next.js' pages structure).
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+The advantage of Atomic Design is it's ease of understand and easy maintenance, hopefully it shouldn't take too much time to get used to.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+We won't be writing any code for now, our next step will be looking into the template and configuring it to fit you better.
+but for now, please look through the documentation available in the link above and leave your thoughts, advantages and possible
+approach to Atomic Design.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+XXXXXXXXXXXXXXXXXXX ROLAND XXXXXXXXXXXXXXXXXXXX
