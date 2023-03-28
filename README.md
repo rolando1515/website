@@ -1,4 +1,6 @@
-# TOPIC 1.  ATOMIC DESIGN
+# PORTFOLIO REVAMP
+
+## TOPIC 1.  ATOMIC DESIGN
 
 This is an article with a simple introduction to Atomic Design [link](https://paulonteri.com/thoughts/atomic-design-react).
 In the article you'll see links to other sources of documentation and insights on Atomic Design.
@@ -30,3 +32,21 @@ Templates and
 Pages
 
 Atomic design also make it easier to be consistent on all the components on the website. For example creating consistent buttons that matches throughout the website.  while maintaining the flexibility of adjusting elements without spending too much time. It is like OOP with a twist.
+
+----------------------------------------------------------------------------
+
+## TOPIC 2.  TOOLING
+
+Tooling is more related to the functionalities of your code editor.
+It helps you with linting, formatting (and even making your codebase prettier, the extension is literally called Prettier).
+I'll leave a list a extensions you should install on your vs code and leave a line for me briefly explaining what this extensions help you with.
+
+1. ESLint
+2. Import Cost
+3. markdownlint
+4. Prettier
+5. Todo Tree
+6. vscode-styled-components
+7. React Extension Pack
+
+XXXXXXXXXXXXXXXXXXX ROLAND XXXXXXXXXXXXXXXXXXXX
