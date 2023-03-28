@@ -20,3 +20,14 @@ but for now, please look through the documentation available in the link above a
 approach to Atomic Design.
 
 XXXXXXXXXXXXXXXXXXX ROLAND XXXXXXXXXXXXXXXXXXXX
+
+
+Figma atomic components is a methodology for building pattern libraries that makes it easier to build websites. 
+Components are divided into several categories like : 
+Atoms 
+Molecules 
+Organism  
+Templates and 
+Pages 
+
+Atomic design also make it easier to be consistent on all the components on the website. For example creating consistent buttons that matches throughout the website.  while maintaining the flexibility of adjusting elements without spending too much time. It is like OOP with a twist. 
