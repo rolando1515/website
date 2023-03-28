@@ -35,6 +35,10 @@ Atomic design also make it easier to be consistent on all the components on the 
 
 ----------------------------------------------------------------------------
 
+### MISC
+
+Merged a branch to Git, deleted a branch & created a new branch for tooling, NICE!
+
 ## TOPIC 2.  TOOLING
 
 Tooling is more related to the functionalities of your code editor.
@@ -48,5 +52,20 @@ I'll leave a list a extensions you should install on your vs code and leave a li
 5. Todo Tree
 6. vscode-styled-components
 7. React Extension Pack
+
+You'll also notice the files on the root directory.
+Can you look into the purpose and doumentation of these files for our project and give a brief explanation of what they're responsible for.
+Please also leave any questions you may have about these files or their purpose.
+
+1. .eslintrc.json
+2. .gitignore
+3. .prettierignore
+4. .prettierrc.json
+5. jest.config.js
+6. package.json
+7. next.config.js
+8. README.md
+9. tsconfig.json
+10. yarn.lock
 
 XXXXXXXXXXXXXXXXXXX ROLAND XXXXXXXXXXXXXXXXXXXX
