@@ -103,3 +103,5 @@ You'll notice my section of the Readme has no squiggly lines, that's markdownlin
 - next.config.js allows us customize our next.js application, can you take a guess at what the current config is responsible for?
 - tsconfig.json helps with TS configuration.
 - yarn.lock holds more indepth (and specific) information about the packages and libraries we're using in our application, also helpful for staying consistent across different development environments.
+
+XXXXX ROLAND XXXXX
