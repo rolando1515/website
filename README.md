@@ -89,3 +89,17 @@ next.config.js = Have never used it although I seen it before.
 README.md = It helps with documentation. Specially dealing with how to set up environments. 
 tsconfig.json= is the root of a typescript project. I haven’t had any functional used yet. 
 yarn.lock= Similar to package Jason. This helps when packages are not working properly. 
+
+xxx NOBERT XXX
+An important part of lintiers and formatters are the errors it'll show on your file while working.
+There's currently some errors on your partition above, can you work on fixing them from the markdown instruction?
+You'll notice my section of the Readme has no squiggly lines, that's markdownlint enforcing good practices for me.
+
+- ESLint does a lot more that that, it's a code linter that can also help developers stay consistent (and avoid error) while working.
+- For vscode-styled & REP, it's alright, vs-code-styled improves the legibility of styled components and Reacy Extension Pack gives us a handful of covenient React extensions.
+
+- jest.config.js is responsible for the configuration for tests, we won't be looking at tests but it's good to know.
+- package.json also does more than that but great description, it's essentially a manifest for your application with the tools and methodologies, there's a few scripts in the package.json, can you explain what they do?
+- next.config.js allows us customize our next.js application, can you take a guess at what the current config is responsible for?
+- tsconfig.json helps with TS configuration.
+- yarn.lock holds more indepth (and specific) information about the packages and libraries we're using in our application, also helpful for staying consistent across different development environments.
