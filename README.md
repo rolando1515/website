@@ -69,3 +69,23 @@ Please also leave any questions you may have about these files or their purpose.
 10. yarn.lock
 
 XXXXXXXXXXXXXXXXXXX ROLAND XXXXXXXXXXXXXXXXXXXX
+
+ESLint = will try to automatically fix warning / errors on save. 
+Import cost= Will display inline in the editor the size of the imported package. ( It helps write more efficient code.) 
+markdownlint = encourage standards and consistency for Markdown files.  ( It helps write more standardized code.) 
+Prettier= Improves code readability. 
+Todo Tree= It helps collaborating and keeping track of things to do. 
+vscode-styled-components = it helps code faster.
+React Extension Pack= similar to vs code styled component but for react. 
+
+
+.eslintrc.json = ESLint configuration. 
+.gitignore = is a list of files and folders that git will ignore. 
+.prettierignore = ignore certain files. 
+.prettierrc.json= perttier file configuration. 
+jest.config.js = Not sure what it is for.
+package.json = contains metadata about a project.  It’s helpful when you need to figure out when a package is not working. It tells you the version that you are using and if it is installed. 
+next.config.js = Have never used it although I seen it before. 
+README.md = It helps with documentation. Specially dealing with how to set up environments. 
+tsconfig.json= is the root of a typescript project. I haven’t had any functional used yet. 
+yarn.lock= Similar to package Jason. This helps when packages are not working properly. 
