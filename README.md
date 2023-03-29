@@ -70,25 +70,24 @@ Please also leave any questions you may have about these files or their purpose.
 
 XXXXXXXXXXXXXXXXXXX ROLAND XXXXXXXXXXXXXXXXXXXX
 
-ESLint = will try to automatically fix warning / errors on save. 
-Import cost= Will display inline in the editor the size of the imported package. ( It helps write more efficient code.) 
-markdownlint = encourage standards and consistency for Markdown files.  ( It helps write more standardized code.) 
-Prettier= Improves code readability. 
-Todo Tree= It helps collaborating and keeping track of things to do. 
+ESLint = will try to automatically fix warning / errors on save.
+Import cost= Will display inline in the editor the size of the imported package. ( It helps write more efficient code.)
+markdownlint = encourage standards and consistency for Markdown files.  ( It helps write more standardized code.)
+Prettier= Improves code readability.
+Todo Tree= It helps collaborating and keeping track of things to do.
 vscode-styled-components = it helps code faster.
-React Extension Pack= similar to vs code styled component but for react. 
+React Extension Pack= similar to vs code styled component but for react.
 
-
-.eslintrc.json = ESLint configuration. 
-.gitignore = is a list of files and folders that git will ignore. 
-.prettierignore = ignore certain files. 
-.prettierrc.json= perttier file configuration. 
+.eslintrc.json = ESLint configuration.
+.gitignore = is a list of files and folders that git will ignore.
+.prettierignore = ignore certain files.
+.prettierrc.json= perttier file configuration.
 jest.config.js = Not sure what it is for.
-package.json = contains metadata about a project.  It’s helpful when you need to figure out when a package is not working. It tells you the version that you are using and if it is installed. 
-next.config.js = Have never used it although I seen it before. 
-README.md = It helps with documentation. Specially dealing with how to set up environments. 
-tsconfig.json= is the root of a typescript project. I haven’t had any functional used yet. 
-yarn.lock= Similar to package Jason. This helps when packages are not working properly. 
+package.json = contains metadata about a project.  It’s helpful when you need to figure out when a package is not working. It tells you the version that you are using and if it is installed.
+next.config.js = Have never used it although I seen it before.
+README.md = It helps with documentation. Specially dealing with how to set up environments.
+tsconfig.json= is the root of a typescript project. I haven’t had any functional used yet.
+yarn.lock= Similar to package Jason. This helps when packages are not working properly.
 
 xxx NOBERT XXX
 An important part of lintiers and formatters are the errors it'll show on your file while working.
@@ -105,3 +104,42 @@ You'll notice my section of the Readme has no squiggly lines, that's markdownlin
 - yarn.lock holds more indepth (and specific) information about the packages and libraries we're using in our application, also helpful for staying consistent across different development environments.
 
 XXXXX ROLAND XXXXX
+
+I am not sure if I did the formatting with markdown correctly. But the error message went away.
+
+It start with pre script which in our case starts like this
+"name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts":
+
+  Then it follows with the dependencies  which are packages required by our application. in our case is
+   @reduxjs/toolkit": "^1.9.3",
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.29",
+    "@types/react-dom": "18.0.11",
+    "axios": "^1.3.4",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "gsap": "^3.11.5",
+    "lodash": "^4.17.21",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "react-transition-group": "^4.4.5",
+    "styled-components": "^5.3.9",
+    "typescript": "5.0.2"
+
+    Let me know if you want me to dig in to each one of those but basically they make our life easier. 
+
+
+    Then comes the devDependencies 
+
+    These are packages that we will use only in development.  Examples Unit test.
+
+    Then we have devDependencies are dependencies that oir projets hooks into. usually they are plugins. 
+
+    lint-staged not sure what are these use for but it seems that is only runs on certain files. Which helps them run faster. 
+
+current config is responsible for higlhliting potential problems in our application. It looks like is the warning signs we see when we run the application.
