@@ -108,38 +108,49 @@ XXXXX ROLAND XXXXX
 I am not sure if I did the formatting with markdown correctly. But the error message went away.
 
 It start with pre script which in our case starts like this
-"name": "template",
-  "version": "0.1.0",
-  "private": true,
-  "scripts":
+Then it follows with the dependencies  which are packages required by our application. in our case is
 
-  Then it follows with the dependencies  which are packages required by our application. in our case is
-   @reduxjs/toolkit": "^1.9.3",
-    "@types/node": "18.15.10",
-    "@types/react": "18.0.29",
-    "@types/react-dom": "18.0.11",
-    "axios": "^1.3.4",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "gsap": "^3.11.5",
-    "lodash": "^4.17.21",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-redux": "^8.0.5",
-    "react-transition-group": "^4.4.5",
-    "styled-components": "^5.3.9",
-    "typescript": "5.0.2"
+1. @reduxjs/toolkit": "^1.9.3",
+2. "@types/node": "18.15.10",
+3. "@types/react": "18.0.29",
+4. "@types/react-dom": "18.0.11",
+5. "axios": "^1.3.4",
+6. "eslint": "8.36.0",
+7. "eslint-config-next": "13.2.4",
+8. "gsap": "^3.11.5",
+9. "lodash": "^4.17.21",
+10. "next": "13.2.4",
+11. "react": "18.2.0",
+12. "react-dom": "18.2.0",
+13. "react-redux": "^8.0.5",
+14. "react-transition-group": "^4.4.5",
+15. "styled-components": "^5.3.9",
+16. "typescript": "5.0.2"
 
-    Let me know if you want me to dig in to each one of those but basically they make our life easier. 
+Let me know if you want me to dig in to each one of those but basically they make our life easier.
 
-
-    Then comes the devDependencies 
-
-    These are packages that we will use only in development.  Examples Unit test.
-
-    Then we have devDependencies are dependencies that oir projets hooks into. usually they are plugins. 
-
-    lint-staged not sure what are these use for but it seems that is only runs on certain files. Which helps them run faster. 
-
+Then comes the devDependencies
+These are packages that we will use only in development.  Examples Unit test.
+Then we have devDependencies are dependencies that oir projets hooks into. usually they are plugins.
+lint-staged not sure what are these use for but it seems that is only runs on certain files. Which helps them run faster.
 current config is responsible for higlhliting potential problems in our application. It looks like is the warning signs we see when we run the application.
+
+XXX NOBERT XXX
+
+It's very important to note the scripts in your package.json.
+
+1. "prepare": "husky install": this is usually run pre installation, it sets up Husky (for managing Git hooks and commit info) in your application.
+2. "dev": "next dev": Next command to set up a development server.
+3. "build": "next build": Next command to build your project.
+4. "start": "next start": Next command to start your project.
+5. "lint:js": "next lint", "lint-fix": "next lint --fix" "lint:css": "stylelint ./**/*.scss": commands for linting (we might've forgotten to add stylelint globally), they go through your application and make stuff look & act good.
+6. "lint": "npm-run-all --parallel lint:*": Runs all the lint commands in the package.json.
+7. "tsc": "tsc", "test": "jest --watch": For Type Checking with TypeScript & test for watching all the tests in your application.
+8. "prettier": "prettier check \"**/*{js,jsx,json,ts,tsx,yaml}\"", "prettier-fix": "prettier --write \"**/*{js,jsx,json,ts,tsx,yaml}\"": These are prettier commands for formatting your code base.
+9. "format": "npm-run-all tsc prettier-fix lint": This runs the tsc, prettier-fix & lint commands.
+
+The lint-staged is called by Husky before every commit, it fixes your files with the "prettier --fix" command and adds them.
+
+You can add any notes you might have after this description.
+
+XXX ROLAND XXX
