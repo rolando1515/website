@@ -1,0 +1,52 @@
+/* 
+TODO: You can import the google fonts and declare your root here.
+This is the link for the Inter Google font. https://fonts.google.com/specimen/Inter?query=inter 
+*/
+
+
+/* 
+TODO: You can import the local fonts here, we might not have access to the font used in Figma so 
+we'll be using a fonts in the public folder. (called Google Sans).
+I have imported this font improperly, Next.js has a standard for importing local assets, 
+can you explain how and correct me in the Readme?
+Also, we don't need to import all the font weights and variations in the fonts folder,
+can you use the Figma to identify the weights and styles we need?
+Please list the in the readme after importing them into this file.
+*/
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/public/fonts/GoogleSans-Bold.eot');
+  src: local('Google Sans Bold'), local('GoogleSans-Bold'),
+  url('/public/fonts/GoogleSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/public/fonts/GoogleSans-Bold.woff2') format('woff2'),
+  url('/public/fonts/GoogleSans-Bold.woff') format('woff'),
+  url('/public/fonts/GoogleSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* 
+TODO: declare a root, assigning values to the reusable values in the Figma. i.e color, font colors, gradients etc 
+*/
+
+:root {
+  --fullBlack: #000000;
+  --fullWhite: #ffffff; 
+}
+
+
+/*
+ TODO: Define a max-width for your tablet views, do research into media queries and a proper width to use. 
+ */
+@media (max-width: 1500px) {
+  :root {}
+}
+
+/*
+ TODO: Define a max-width for your mobile views, do research into media queries and a proper width to use. 
+ */
+@media (max-width: 1500px) {
+  :root {}
+}
