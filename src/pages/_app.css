@@ -9,9 +9,14 @@ TODO: You can import the local fonts here, we might not have access to the font 
 we'll be using a fonts in the public folder. (called Google Sans).
 I have imported this font improperly, Next.js has a standard for importing local assets, 
 can you explain how and correct me in the Readme?
+
 Also, we don't need to import all the font weights and variations in the fonts folder,
-can you use the Figma to identify the weights and styles we need?
-Please list the in the readme after importing them into this file.
+Can you use the Figma to identify the weights and styles we need?
+Please list them in the readme after importing them into this file.
+
+
+FINALLY. You'll notice the different kinds of font formats (woff2, woff, truetype, opentype)
+Can you give summaries for each on them and the major differences?
 */
 
 @font-face {
