@@ -153,4 +153,22 @@ The lint-staged is called by Husky before every commit, it fixes your files with
 
 You can add any notes you might have after this description.
 
-XXX ROLAND XXX
+## TOPIC 3.  GLOBALS
+
+Apparently, Todo tree registers XXX as a Todo so take note.
+The globals are what comes after the boilerplate. They're a platform for creating consistency in your application, whether it be styling, introducing environment variables etc.
+
+We've decided to use the [Figma](https://www.figma.com/file/uha2g6j5g7e2ofWLjAK1kP/Portfolio-Ui-Design-Template-(Community)?node-id=0%3A1&t=wHMvDD0ElKvMLZxS-1) for this application.
+
+You'll have the following tasks to research and implement.
+
+1. Identify the primary & secondary colors of the design.
+2. Identify the fonts used in the application, there's a Google font & a non Google font. I want you to import the Google font into the main app CSS file & import the other font locally (also registering in in your CSS).
+3. Define a :root in the global style sheet and also create css variables for colors, gradients etc (I'll leave examples).
+4. Define a maximum content width (in px) from the application & and a percentage width (I usually use 85% or 90%);
+5. Change the percentage width with CSS variables with media queries for tablet width (90%) and mobile width (95%).
+
+I'll leave TODOs wherever you might need to work on, I'll also leave a few examples, I'll add dummy media queries, but I need you to look into the documentation behind them and adjust the values to properly match the tablet and mobile width values.
+Also leave your observations at the end of this topic (or any problem you had, and how you solved them).
+
+XXXX ROLAND XXXX
