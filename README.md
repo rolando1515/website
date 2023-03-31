@@ -172,3 +172,13 @@ I'll leave TODOs wherever you might need to work on, I'll also leave a few examp
 Also leave your observations at the end of this topic (or any problem you had, and how you solved them).
 
 XXXX ROLAND XXXX
+
+1. The Primary color seems to be #201F1F which is the background and secondary color is #FFFFFF which seems to be the letters.(I am not sure if I am correct)
+2. Is there a place in Figma where I can see like a summary of all the colors weights and fonts that are used ?
+   Here is a summart of the web font <https://medium.com/@aitareydesign/understanding-of-font-formats-ttf-otf-woff-eot-svg-e55e00a1ef2>  
+
+   Is this used because different devices have different capabilities and this is a way to make sure that the font is displayed correctly on all devices ?
+
+3. I do not see too many different colors and gradients. I am not sure if I am missing something.
+4. Done.
+5. Done.
