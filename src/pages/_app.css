@@ -2,8 +2,11 @@
 TODO: You can import the google fonts and declare your root here.
 This is the link for the Inter Google font. https://fonts.google.com/specimen/Inter?query=inter 
 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-
+:root{
+  font-family: 'Inter', sans-serif;
+}
 /* 
 TODO: You can import the local fonts here, we might not have access to the font used in Figma so 
 we'll be using a fonts in the public folder. (called Google Sans).
@@ -21,13 +24,11 @@ Can you give summaries for each on them and the major differences?
 
 @font-face {
   font-family: 'Google Sans';
-  src: url('/public/fonts/GoogleSans-Bold.eot');
-  src: local('Google Sans Bold'), local('GoogleSans-Bold'),
-  url('/public/fonts/GoogleSans-Bold.eot?#iefix') format('embedded-opentype'),
-  url('/public/fonts/GoogleSans-Bold.woff2') format('woff2'),
-  url('/public/fonts/GoogleSans-Bold.woff') format('woff'),
-  url('/public/fonts/GoogleSans-Bold.ttf') format('truetype');
-  font-weight: bold;
+  src: url('/public/fonts/GoogleSans-Regular.eot');
+  src: url('/public/fonts/GoogleSans-Regular.ttf');
+  src: url('/public/fonts/GoogleSans-Regular.woff');
+  src: url('/public/fonts/GoogleSans-Regular.woff2');
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -39,19 +40,32 @@ TODO: declare a root, assigning values to the reusable values in the Figma. i.e 
 :root {
   --fullBlack: #000000;
   --fullWhite: #ffffff; 
+  --namecolor: linear-gradient(to right, #9845E8, #33D2FF, #DD5789);
+
 }
 
 
 /*
  TODO: Define a max-width for your tablet views, do research into media queries and a proper width to use. 
  */
-@media (max-width: 1500px) {
-  :root {}
+@media (min-width: 768px) and (max-width: 1024px){
+  
+  .container {
+    max-width: 960px; 
+    width: 85%; 
+    margin: 0 auto; 
+  }
 }
+ 
+ 
+
 
 /*
  TODO: Define a max-width for your mobile views, do research into media queries and a proper width to use. 
  */
-@media (max-width: 1500px) {
-  :root {}
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%; 
+    
+  }
 }
