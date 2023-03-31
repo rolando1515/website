@@ -183,11 +183,9 @@ XXXX ROLAND XXXX
 4. Done.
 5. Done.
 
-Notes 
-   These are links of documentations 
-   https://www.geeksforgeeks.org/how-to-add-custom-local-fonts-in-next-js/
-   https://react.dev/learn
-    https://nextjs.org/docs/getting-started
-     https://styled-components.com/docs/basics
-
-
+Notes
+   These are links of documentations
+   <https://www.geeksforgeeks.org/how-to-add-custom-local-fonts-in-next-js/>
+   <https://react.dev/learn>
+   <https://nextjs.org/docs/getting-started>
+   <https://styled-components.com/docs/basics>
