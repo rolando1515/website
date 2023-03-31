@@ -2,7 +2,8 @@
 TODO: You can import the google fonts and declare your root here.
 This is the link for the Inter Google font. https://fonts.google.com/specimen/Inter?query=inter 
 */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Inter:wght@300;400&display=swap');
+
 
 :root{
   font-family: 'Inter', sans-serif;
