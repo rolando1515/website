@@ -190,5 +190,6 @@ Notes
    <https://nextjs.org/docs/getting-started>
    <https://styled-components.com/docs/basics>
   
-  Questions 
+  Questions
+
   1. Are hooks only used to collect data in the front end? or is it also used to connect it to the backend ?.
