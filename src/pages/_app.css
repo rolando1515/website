@@ -43,19 +43,16 @@ TODO: declare a root, assigning values to the reusable values in the Figma. i.e 
   --fullBlack: #000000;
   --fullWhite: #ffffff; 
   --namecolor: linear-gradient(to right, #9845E8, #33D2FF, #DD5789);
-
+ --width: 85%;
 }
 
 
 /*
  TODO: Define a max-width for your tablet views, do research into media queries and a proper width to use. 
  */
-@media (min-width: 768px) and (max-width: 1024px){
-  
-  .container {
-    max-width: 960px; 
-    width: 85%; 
-    margin: 0 auto; 
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    --width: 90%;
   }
 }
  
@@ -66,8 +63,7 @@ TODO: declare a root, assigning values to the reusable values in the Figma. i.e 
  TODO: Define a max-width for your mobile views, do research into media queries and a proper width to use. 
  */
 @media (max-width: 767px) {
-  .container {
-    max-width: 100%; 
-    
+  :root {
+    --width: 95%;
   }
 }
