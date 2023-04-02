@@ -202,3 +202,7 @@ They're only used in Functional React components and they redefined the way Reac
 I added examples for what I wanted in the css (changing the width at different media queries).
 Please add the other fonts weights and styles in the public/fonts folder.
 Also add more css variables for the colors in the Figma, I'll add comments in the Figma file tomorrow to give you some hints.
+
+xxxxx ROLAND xxxxx
+
+1. I added the new font.
