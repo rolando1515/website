@@ -211,6 +211,7 @@ There are two ways of importing fonts you can get them from google or download i
 ** Note to spend a bit more time in figma and understanding the formatting.
 
 Week summary.
+This week I learned about the following :
 
 1. about atomic designs and how it helps create reusable components with the flexibility of making unique designs.
 
@@ -220,4 +221,4 @@ Week summary.
 5. Learned a bit more on the importance of the files in the root directory
 6. Got a bit more familiar with dependancies.
 7. Got more comfortable with importing fonts. Identifying primary and secondary colors. (Css).
-8. Overall got more comfortable with the entire process.
+8. Overall got more comfortable with the entire developing process.
