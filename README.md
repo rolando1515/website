@@ -209,3 +209,15 @@ xxxxx ROLAND xxxxx
 
 There are two ways of importing fonts you can get them from google or download into the public/fonts folder just make sure you note the format.
 ** Note to spend a bit more time in figma and understanding the formatting.
+
+Week summary.
+
+1. about atomic designs and how it helps create reusable components with the flexibility of making unique designs.
+
+2. about Figma and how useful it is to find designs and inspiration. Got a bit more         comfortable with the platform .
+3. Got more comfortable using Github and making pushes , merging branches and learned about using branches and not the main branch.
+4. The tools that makes writing and organizing code easier.
+5. Learned a bit more on the importance of the files in the root directory
+6. Got a bit more familiar with dependancies.
+7. Got more comfortable with importing fonts. Identifying primary and secondary colors. (Css).
+8. Overall got more comfortable with the entire process.
