@@ -32,7 +32,15 @@ Can you give summaries for each on them and the major differences?
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family:'GTWalsheimPro-Black';
+  src: url('/fonts/GTWalsheimPro-Black.eot');
+  src: url('/fonts/GTWalsheimPro-Black.ttf');
+  src: url('/fonts/GTWalsheimPro-Black.woff');
+  src: url('/fonts/GTWalsheimPro-Black.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 /* 
@@ -40,10 +48,17 @@ TODO: declare a root, assigning values to the reusable values in the Figma. i.e 
 */
 
 :root {
-  --fullBlack: #000000;
-  --fullWhite: #ffffff; 
+  --fullBlack:      #000000;
+  --softWhite:      #F0F0F0;
+  --fullWhite:      #ffffff; 
+  --subtitleColor:  #6CACE4;
+  --subTextColor:   #C4C4C4;
   --namecolor: linear-gradient(to right, #9845E8, #33D2FF, #DD5789);
- --width: 85%;
+  --sendanEmailGradient: linear-gradient(to right,#9358F7,#9259F7,#8E5DF6,#8862F5,#806BF4,#7575F2,#6882F0,#5990EE,#4A9FEB,#3BADE9,#2EBAE7,#23C4E5,#1BCDE4,#15D2E3,#11D6E2,#10D7E2);
+  --linkedInGradient: linear-gradient(to right,#6964DE,#FCA6E9);
+  --upWorkGradient: linear-gradient(to right,#FEDC2A,#DD5789,#7A2C9E);
+  --githubGradient: linear-gradient(225.4deg, #FEDC2A 0%, #DD5789 48.12%, #7A2C9E 93.59%);
+  --width: 85%;
 }
 
 
