@@ -207,6 +207,5 @@ xxxxx ROLAND xxxxx
 
 1. I added the new font.
 
-
-There are two ways of importing fonts you can get them from google or download into the public/fonts folder just make sure you note the format. 
-** Note to spend a bit more time in figma and understanding the formatting. 
+There are two ways of importing fonts you can get them from google or download into the public/fonts folder just make sure you note the format.
+** Note to spend a bit more time in figma and understanding the formatting.
