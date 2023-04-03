@@ -208,7 +208,8 @@ xxxxx ROLAND xxxxx
 1. I added the new font.
 
 There are two ways of importing fonts you can get them from google or download into the public/fonts folder just make sure you note the format.
-** Note to spend a bit more time in figma and understanding the formatting.
+**Note to spend a bit more time in figma and understanding the formatting.
+**NOTE: It's better to define it as we can get fonts from a CDN (Content Delivery Network, tha Google), Google was just our preferred CDN for this case. You can read up on CDN's too.
 
 Week summary.
 This week I learned about the following :
