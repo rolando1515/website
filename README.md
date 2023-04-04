@@ -223,3 +223,24 @@ This week I learned about the following :
 6. Got a bit more familiar with dependancies.
 7. Got more comfortable with importing fonts. Identifying primary and secondary colors. (Css).
 8. Overall got more comfortable with the entire developing process.
+
+## TOPIC 4.  LAYOUTS & POSITIONING
+
+There are some elements that will be shared by a majority of pages in your application (i.e Header, Footer, Logo)
+They tend to define a look for your pages, help with navigation and are a consistent base for linking to your application's resources
+It's also good to note there's a semantic way (in HTML) to define them through tags.
+Your current task (before we start writing the code) will be to look into the following tags and define their use in your application.
+W3 is a great source for all things documentation
+[LINK](https://www.w3schools.com/html/)
+[LINK](https://www.w3schools.com/html/html_layout.asp)
+
+1. <!DOCTYPE html>
+2. html
+3. head
+4. title
+5. header
+6. nav
+7. footer
+8. aside
+
+XXXXXXXXXX ROLAND XXXXXXXXXXXXX
