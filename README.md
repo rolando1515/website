@@ -247,11 +247,27 @@ XXXXXXXXXX ROLAND XXXXXXXXXXXXX
 
 1. <!DOCTYPE html> - This is a declaration that the document is an HTML document. It is not an HTML tag. It is an "information" to the browser about what document type to expect.
 
-2.head - The head element contains meta information about the document, like its title, scripts, and style sheets.
+2. head - The head element contains meta information about the document, like its title, scripts, and style sheets.
 3. title - The title element specifies a title for the document. The title element is required in an HTML document.
 4. header - The header element represents a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
 5. nav - The nav element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
-7. footer - The footer element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data, contact information, links to related documents, and so on.
-8. aside - The aside element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+6. footer - The footer element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data, contact information, links to related documents, and so on.
+7. aside - The aside element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
 
 XXXXXXXXX NOBERT XXXXXXXXXX
+
+You skipped the html, it's not the same as the doctype but it has it's uses.
+You will find a global style file in the src/styles folder.
+Can you look into Styled Components and tell me what it does.
+Can you also inspect your page (should be empty), locate this div and explain it's use and what the styles are currently doing.
+
+```css
+   div#__next {
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   overflow-x: hidden;
+   }
+```
