@@ -310,4 +310,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 this file is also rendering a Component with pageProps, and imports our app.css we just used to import our fonts and declare our css variables.
 This file seems important.
 Can you try to research (and explain) what this file is doing? what also is this createGlobalStyle that styled components is doing?
- 
+
+xxxxxx Roland xxxxxx
+
+In a concise way the file sets up a wrapper component that will be used to wrap all the other components in the application.
+The createGlobalStyle allows us to inject global CSS styles into the '<head>' of a document.
