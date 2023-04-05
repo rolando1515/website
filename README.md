@@ -274,5 +274,40 @@ Can you also inspect your page (should be empty), locate this div and explain it
 ```
 
 xxxxxx ROLAND xxxxx
+
 1.Style components its a library that allows you to write css in js. It basically allows you to attach CSS into a component.
 2. This is the closest answer that i could get " is a CSS selector targeting the root element of a React application. It is used to set the width and height of the application to 100% of the viewport. It is also used to set the overflow to hidden to prevent the user from scrolling the page horizontally. "
+
+xxxxxx NOBERT xxxxxx
+
+Sorry, this is my bad. We'll have to be a little bit more specific here.
+These's are the most important parts. In that GlobalStyle file, styled components is exporting something very important.
+
+```javascript
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle``;
+```
+
+currently been consumed by our root application in pages/_app.tsx
+
+````javascript
+import type { AppProps } from 'next/app';
+import { GlobalStyle } from 'styles';
+
+import './_app.css';
+
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <GlobalStyle />
+      <Component {...pageProps} />
+    </>
+  );
+}
+````
+
+this file is also rendering a Component with pageProps, and imports our app.css we just used to import our fonts and declare our css variables.
+This file seems important.
+Can you try to research (and explain) what this file is doing? what also is this createGlobalStyle that styled components is doing?
+ 
