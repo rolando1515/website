@@ -4,8 +4,7 @@ This is the link for the Inter Google font. https://fonts.google.com/specimen/In
 */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Inter:wght@300;400&display=swap');
 
-
-:root{
+:root {
   font-family: 'Inter', sans-serif;
 }
 /* 
@@ -33,7 +32,7 @@ Can you give summaries for each on them and the major differences?
   font-style: normal;
 }
 @font-face {
-  font-family:'GTWalsheimPro-Black';
+  font-family: 'GTWalsheimPro-Black';
   src: url('/fonts/GTWalsheimPro-Black.eot');
   src: url('/fonts/GTWalsheimPro-Black.ttf');
   src: url('/fonts/GTWalsheimPro-Black.woff');
@@ -42,25 +41,46 @@ Can you give summaries for each on them and the major differences?
   font-style: normal;
 }
 
-
 /* 
 TODO: declare a root, assigning values to the reusable values in the Figma. i.e color, font colors, gradients etc 
 */
 
 :root {
-  --fullBlack:      #000000;
-  --softWhite:      #F0F0F0;
-  --fullWhite:      #ffffff; 
-  --subtitleColor:  #6CACE4;
-  --subTextColor:   #C4C4C4;
-  --namecolor: linear-gradient(to right, #9845E8, #33D2FF, #DD5789);
-  --sendanEmailGradient: linear-gradient(to right,#9358F7,#9259F7,#8E5DF6,#8862F5,#806BF4,#7575F2,#6882F0,#5990EE,#4A9FEB,#3BADE9,#2EBAE7,#23C4E5,#1BCDE4,#15D2E3,#11D6E2,#10D7E2);
-  --linkedInGradient: linear-gradient(to right,#6964DE,#FCA6E9);
-  --upWorkGradient: linear-gradient(to right,#FEDC2A,#DD5789,#7A2C9E);
-  --githubGradient: linear-gradient(225.4deg, #FEDC2A 0%, #DD5789 48.12%, #7A2C9E 93.59%);
+  --fullBlack: #000000;
+  --softWhite: #f0f0f0;
+  --fullWhite: #ffffff;
+  --subtitleColor: #6cace4;
+  --subTextColor: #c4c4c4;
+  --namecolor: linear-gradient(to right, #9845e8, #33d2ff, #dd5789);
+  --sendanEmailGradient: linear-gradient(
+    to right,
+    #9358f7,
+    #9259f7,
+    #8e5df6,
+    #8862f5,
+    #806bf4,
+    #7575f2,
+    #6882f0,
+    #5990ee,
+    #4a9feb,
+    #3bade9,
+    #2ebae7,
+    #23c4e5,
+    #1bcde4,
+    #15d2e3,
+    #11d6e2,
+    #10d7e2
+  );
+  --linkedInGradient: linear-gradient(to right, #6964de, #fca6e9);
+  --upWorkGradient: linear-gradient(to right, #fedc2a, #dd5789, #7a2c9e);
+  --githubGradient: linear-gradient(
+    225.4deg,
+    #fedc2a 0%,
+    #dd5789 48.12%,
+    #7a2c9e 93.59%
+  );
   --width: 85%;
 }
-
 
 /*
  TODO: Define a max-width for your tablet views, do research into media queries and a proper width to use. 
@@ -70,9 +90,6 @@ TODO: declare a root, assigning values to the reusable values in the Figma. i.e 
     --width: 90%;
   }
 }
- 
- 
-
 
 /*
  TODO: Define a max-width for your mobile views, do research into media queries and a proper width to use. 
@@ -81,4 +98,9 @@ TODO: declare a root, assigning values to the reusable values in the Figma. i.e 
   :root {
     --width: 95%;
   }
+}
+
+/* TODO: Added a h1 styling here */
+h1 {
+  color: red;
 }

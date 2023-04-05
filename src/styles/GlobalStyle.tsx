@@ -59,6 +59,11 @@ const GlobalStyle = createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     background-color: black;
    }
+
+   /* TODO: Added a h1 styling here */
+    h1 {
+      border: 10 px solid red;
+    }
 `;
 
 export default GlobalStyle;
