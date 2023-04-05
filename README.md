@@ -313,5 +313,36 @@ Can you try to research (and explain) what this file is doing? what also is this
 
 xxxxxx Roland xxxxxx
 
-In a concise way the file sets up a wrapper component that will be used to wrap all the other components in the application.
-The createGlobalStyle allows us to inject global CSS styles into the '<head>' of a document.
+1. The _app.tsx file is the root of the application. It is the first file that is loaded when the application is started. It is used to initialize pages. It is also used to maintain state across the application.
+
+````javascript
+import type { AppProps } from 'next/app'; 
+````
+
+This import AppProps from next/app. AppProps is an interface that is used to define the properties of the application. I tried looking on exactly what AppProps is but i could not find anything.
+
+````javascript
+import { GlobalStyle } from 'styles';
+````
+
+ The GlobalStyle is a function that is used to create a global style. It is used to create a style that is applied to the entire application.
+
+````javascript
+import './_app.css';
+````
+
+ The _app.css file is used to import the fonts and declare the css variables.
+
+````javascript
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <GlobalStyle />
+      <Component {...pageProps} />
+    </>
+  );
+}
+````
+
+First  The function takes two props: Component and pageProps, both of which are of type AppProps.
+That takes the GlobalStyle and the Component and pageProps and returns them.  It set ups  the basic structure for the application.
