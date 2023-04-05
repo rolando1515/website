@@ -246,13 +246,14 @@ W3 is a great source for all things documentation
 XXXXXXXXXX ROLAND XXXXXXXXXXXXX
 
 1. <!DOCTYPE html> - This is a declaration that the document is an HTML document. It is not an HTML tag. It is an "information" to the browser about what document type to expect.
+2. html - The html element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.
 
-2. head - The head element contains meta information about the document, like its title, scripts, and style sheets.
-3. title - The title element specifies a title for the document. The title element is required in an HTML document.
-4. header - The header element represents a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
-5. nav - The nav element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
-6. footer - The footer element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data, contact information, links to related documents, and so on.
-7. aside - The aside element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+3. head - The head element contains meta information about the document, like its title, scripts, and style sheets.
+4. title - The title element specifies a title for the document. The title element is required in an HTML document.
+5. header - The header element represents a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+6. nav - The nav element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+7. footer - The footer element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data, contact information, links to related documents, and so on.
+8. aside - The aside element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
 
 XXXXXXXXX NOBERT XXXXXXXXXX
 
@@ -271,3 +272,7 @@ Can you also inspect your page (should be empty), locate this div and explain it
    overflow-x: hidden;
    }
 ```
+
+xxxxxx ROLAND xxxxx
+1.Style components its a library that allows you to write css in js. It basically allows you to attach CSS into a component.
+2. This is the closest answer that i could get " is a CSS selector targeting the root element of a React application. It is used to set the width and height of the application to 100% of the viewport. It is also used to set the overflow to hidden to prevent the user from scrolling the page horizontally. "
