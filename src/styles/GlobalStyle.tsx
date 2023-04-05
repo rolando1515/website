@@ -62,7 +62,7 @@ const GlobalStyle = createGlobalStyle`
 
    /* TODO: Added a h1 styling here */
     h1 {
-      border: 10 px solid red;
+      border: 10px solid red;
     }
 `;
 
