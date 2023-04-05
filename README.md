@@ -346,3 +346,19 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
 First  The function takes two props: Component and pageProps, both of which are of type AppProps.
 That takes the GlobalStyle and the Component and pageProps and returns them.  It set ups  the basic structure for the application.
+
+xxxxxxx Nobert xxxxxxxx
+
+Thank you.
+Attention to these details is very important.
+
+1. AppProps is a type. Closer to TypeScript needed terminology. It informs the components that these are the object I'm responsible for and restricts you to the things you can do with them.
+
+2. Yes! Global Styling is important and we've introduced two ways to insert global CSS to our application. Through the app.css file in our pages folder or a GlobalStyle (I usually do app.css for fonts and css variables related stuff,  and the GlobalStyle to normalize).
+
+3. Anything we define in app, is also available to the entire application.
+
+Can you run the application?
+I will add a H1 to the app pages and a styling for the _next div in globals.
+I'll add a Todo for you to know the places.
+I'll also mess with h1 a little and try to spot what's happening.
