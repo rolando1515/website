@@ -370,3 +370,5 @@ The problem was that the dependencies were not installed. I installed the depend
 
 xxxxxxx NOBERT xxxxxxx
 Can you give explanations for what's happening with the H1? Where's it's current styling is coming from.
+
+To see where the property from H1 is coming from you can go to _app.tsx right click go to source definition. It will take you to the file where the property is defined. In this case is towards the bottom and name h1.
