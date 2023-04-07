@@ -362,3 +362,6 @@ Can you run the application?
 I will add a H1 to the app pages and a styling for the _next div in globals.
 I'll add a Todo for you to know the places.
 I'll also mess with h1 a little and try to spot what's happening.
+xxxxx ROLAND xxxxx  
+
+The application is throwing error code 127 which means it cannot find the file or directory.
