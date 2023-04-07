@@ -362,7 +362,11 @@ Can you run the application?
 I will add a H1 to the app pages and a styling for the _next div in globals.
 I'll add a Todo for you to know the places.
 I'll also mess with h1 a little and try to spot what's happening.
+
 xxxxx ROLAND xxxxx  
 
 The application is throwing error code 127 which means it cannot find the file or directory.
 The problem was that the dependencies were not installed. I installed the dependencies and the application is running. Using the command "npm install" in the terminal or in this case yarn and then "yarn dev" to run the application.
+
+xxxxxxx NOBERT xxxxxxx
+Can you give explanations for what's happening with the H1? Where's it's current styling is coming from.
