@@ -365,3 +365,4 @@ I'll also mess with h1 a little and try to spot what's happening.
 xxxxx ROLAND xxxxx  
 
 The application is throwing error code 127 which means it cannot find the file or directory.
+The problem was that the dependencies were not installed. I installed the dependencies and the application is running. Using the command "npm install" in the terminal or in this case yarn and then "yarn dev" to run the application.
