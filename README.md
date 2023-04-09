@@ -373,6 +373,10 @@ Can you give explanations for what's happening with the H1? Where's it's current
 
 xxxxxxx ROLAND xxxxxxxx
 
-To see where the property from H1 is coming from you can go to _app.tsx right click go to source definition. It will take you to the file where the property is defined. In this case is towards the bottom and name h1. 
+To see where the property from H1 is coming from you can go to _app.tsx right click go to source definition. It will take you to the file where the property is defined. In this case is towards the bottom and name h1.
 
 Any styling we give a h1 (because of the color in app.css & border in goobalStyle in the styles folder) it'll affect all the h1's in our application unless you personally override them.
+
+xxxxxxx NOBERT xxxxxxxxx
+
+I just added a header component to the application, can you figure out where it's placed and what the initial styling I put is currently doing? I also added nice red borders so you can see the demarcation for our header content.
