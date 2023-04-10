@@ -380,3 +380,26 @@ Any styling we give a h1 (because of the color in app.css & border in goobalStyl
 xxxxxxx NOBERT xxxxxxxxx
 
 I just added a header component to the application, can you figure out where it's placed and what the initial styling I put is currently doing? I also added nice red borders so you can see the demarcation for our header content.
+
+xxxxxxx ROLAND xxxxxxxxx
+
+The header component is placed in the pages > ui/shared > then styles.tsx.The initial styling
+
+````javascript
+  Container: styled.header`
+    height: 123px;
+    width: 100%;
+    border: 1px solid red;
+    display: grid;
+    place-items: center;
+
+    .header-content {
+      width: var(--width);
+      max-width: var(--max-width);
+      height: 100%;
+      border: 1px solid red;
+
+
+````
+
+The initial styling is setting the height of the header to 123px, the width to 100%, the border to 1px solid red, the display to grid, the place-items to center, the width to var(--width), the max-width to var(--max-width), the height to 100% and the border to 1px solid red.
