@@ -16,6 +16,7 @@ export const Style = {
       border: 1px solid red;
    
       .header-logo {
+      position: left;
       width: 86px;
       height: 64px;
       font-family: 'Inter';
@@ -28,3 +29,4 @@ export const Style = {
     }
   `,
 };
+

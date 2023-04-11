@@ -12,11 +12,14 @@ export function Header() {
         <span className="header-logo">
           R.L
         </span>
-         <ul>
+        <span>
+        <ul>
          <li>Projects</li>
          <li>Resume</li>
          <li>Contact</li>
          </ul>
+        </span>
+      
        </div>
    
     </Style.Container>
