@@ -8,6 +8,10 @@ export const Style = {
     border: 1px solid red;
     display: grid;
     place-items: center;
+    background-color: #000000;
+
+
+
     .flex-container {
     display: flex;
 }
@@ -25,6 +29,7 @@ export const Style = {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      color: #FFFFFF;
       
       
       .header-logo {
