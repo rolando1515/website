@@ -8,13 +8,25 @@ export const Style = {
     border: 1px solid red;
     display: grid;
     place-items: center;
+    .flex-container {
+    display: flex;
+}
 
+      .flex-item {
+          flex: 1;
+          padding: 10px;
+           border: 1px solid black;
+}
     .header-content {
       width: var(--width);
       max-width: var(--max-width);
       height: 100%;
       border: 1px solid red;
-   
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
       .header-logo {
       position: left;
       width: 86px;
@@ -26,6 +38,18 @@ export const Style = {
       line-height: 64px;
       color: #FFFFFF;
       }
+
+      ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+}
+// The inline block is what makes it so the list items are next to each other.
+      li {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 16px;
+}
     }
   `,
 };
