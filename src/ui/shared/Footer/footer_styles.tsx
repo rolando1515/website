@@ -70,4 +70,6 @@ color: #FFFFFF;
     `,
   };
   
-  
+ // for the Github Icons or any other icons you can use this website to get the SVG code: 
+//[You can right click and copy the SVG in Figma (pretty nice too).
+//You can directly paste in your react code, create an SVG file for it or create a react element with it.
