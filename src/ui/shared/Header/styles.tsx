@@ -52,8 +52,9 @@ export const Style = {
 // The inline block is what makes it so the list items are next to each other.
       li {
       display: inline-block;
-      margin-right: 10px;
+      margin-left: 20px;
       font-size: 16px;
+
 }
     }
   `,
