@@ -53,16 +53,18 @@ export const Style = {
     li {
       display: inline-block;
       margin-left: 60px;
-      font-size: 16px;
+      font-size: 12px;
       font-family: 'Inter';
       font-style: normal;
       font-weight: 300;
-      font-size: 15px;
       line-height: 48px;
       border: 1px solid #C6C6C6;
-      border-radius: 4px;
+      border-radius: 2px;
+      box-sizing: border-box;
       text-transform: uppercase;
       text-align: center;
+      margin-left: 40px;
+      padding: 1px 40px;
     }
   `,
 };
