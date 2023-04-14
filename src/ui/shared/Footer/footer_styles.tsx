@@ -40,9 +40,14 @@ export const Style = {
       font-weight: 300;
       font-size: 18px;
       line-height: 22px;
-
+      box-sizing: border-box;
+      width: 210px;
+      height: 49px;
+      left: 0px;
+      top: 0px;
+      border: 1px solid #C6C6C6;
+      border-radius: 4px;
       text-transform: uppercase;
-
       color: #ffffff;
     }
 
@@ -61,6 +66,9 @@ export const Style = {
       font-weight: 300;
       font-size: 15px;
       line-height: 48px;
+      border: 1px solid #C6C6C6;
+      border-radius: 4px;
+      text-transform: uppercase;
     }
   `,
 };
