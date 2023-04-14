@@ -405,3 +405,5 @@ The header component is placed in the pages > ui/shared > then styles.tsx.The in
 The initial styling is setting the height of the header to 123px, the width to 100%, the border to 1px solid red, the display to grid, the place-items to center, the width to var(--width), the max-width to var(--max-width), the height to 100% and the border to 1px solid red.
 
 xxxxxxx NOBERT xxxxxxxxx
+
+Great work! The styling for the footer elements have a border & SVG, can you get them from the Figma and add them? Make it look similar to the design.
