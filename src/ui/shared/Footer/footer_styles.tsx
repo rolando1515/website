@@ -52,23 +52,28 @@ export const Style = {
     // The inline block is what makes it so the list items are next to each other.
     li {
       display: inline-block;
-      margin-left: 60px;
+      margin-left: 30px;
       font-size: 12px;
       font-family: 'Inter';
       font-style: normal;
       font-weight: 300;
-      line-height: 48px;
+      line-height: 20px;
       border: 1px solid #C6C6C6;
-      border-radius: 2px;
+      border-radius: 4px;
       box-sizing: border-box;
       text-transform: uppercase;
       text-align: center;
-      margin-left: 40px;
-      padding: 1px 40px;
+      padding: 2px 20px;
+
+
+
+      
     }
   `,
 };
 
+// Line height is the distance between the lines of text.
+//margin-left: 30px; is the distance between the list items.
 // for the Github Icons or any other icons you can use this website to get the SVG code:
 //[You can right click and copy the SVG in Figma (pretty nice too).
 //You can directly paste in your react code, create an SVG file for it or create a react element with it.
