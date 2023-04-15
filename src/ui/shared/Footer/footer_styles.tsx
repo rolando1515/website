@@ -44,6 +44,14 @@ export const Style = {
   
     }
 
+    .linkedinIcon{
+      display: flex;
+      height: 20px; 
+      width: 20px;
+     
+    }
+
+
     ul {
       list-style: none;
       margin: 0;
@@ -65,9 +73,11 @@ export const Style = {
       text-align: center;
       padding: 2px 20px;
 
-
-
       
+
+
+
+
     }
   `,
 };
