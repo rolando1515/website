@@ -41,43 +41,36 @@ export const Style = {
       font-size: 18px;
       line-height: 22px;
       box-sizing: border-box;
-  
     }
-
-    .linkedinIcon{
-      display: flex;
-      height: 20px; 
-      width: 20px;
-     
-    }
-
 
     ul {
       list-style: none;
       margin: 0;
       padding: 0;
+      display: flex;
     }
     // The inline block is what makes it so the list items are next to each other.
     li {
-      display: inline-block;
+      display: flex;
       margin-left: 30px;
       font-size: 12px;
       font-family: 'Inter';
       font-style: normal;
       font-weight: 300;
-      line-height: 20px;
-      border: 1px solid #C6C6C6;
+      border: 1px solid #c6c6c6;
       border-radius: 4px;
       box-sizing: border-box;
       text-transform: uppercase;
       text-align: center;
-      padding: 2px 20px;
+      padding: 5px 20px;
+      align-items: center;
 
-      
-
-
-
-
+      svg {
+        display: flex;
+        /* height: 20px; */
+        width: 15px;
+        margin-right: 15px;
+      }
     }
   `,
 };
