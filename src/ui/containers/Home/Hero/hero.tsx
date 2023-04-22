@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <Style.Container>
       <span>Hey, I'm</span>
-      <h1>Darlene Robertson</h1>
+      <h1>Rolando Labrador</h1>
       <p>
         I'm a software engineer based in Toronto, Canada and also a
         communication and journalism student. I enjoy creating things that live

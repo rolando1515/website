@@ -6,16 +6,17 @@ export function ProjectCard() {
     <Style.Container>
       <figure></figure>
       <hgroup>
-        <h3>Project Name</h3>
+        <h3>Vroom Stock App</h3>
         <div>
           <Github />
           <LinkIcon />
         </div>
       </hgroup>
-      <p>Project Name</p>
+     
       <span>
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat
+      Python-based Stock Price Web Application. Using Streamlit and yfinance libraries, 
+      this app fetches company information and real-time stock prices for S&P 500 companies.
+      With less than 50 lines of code
       </span>
     </Style.Container>
   );
