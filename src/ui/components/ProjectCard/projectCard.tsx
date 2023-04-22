@@ -16,7 +16,7 @@ export function ProjectCard() {
       <span>
       Python-based Stock Price Web Application. Using Streamlit and yfinance libraries, 
       this app fetches company information and real-time stock prices for S&P 500 companies.
-      With less than 50 lines of code
+      With less than 50 lines of code.
       </span>
     </Style.Container>
   );
