@@ -27,7 +27,7 @@ export function ProjectCard1() {
     <Style.Container>
       <figure></figure>
       <hgroup>
-        <h3>Another Project</h3>
+        <h3>To do list</h3>
         <div>
           <Github />
           <LinkIcon />
@@ -35,9 +35,8 @@ export function ProjectCard1() {
       </hgroup>
      
       <span>
-      Python-based Stock Price Web Application. Using Streamlit and yfinance libraries, 
-      this app fetches company information and real-time stock prices for S&P 500 companies.
-      With less than 50 lines of code.
+      A simple to do list app made with HTML,CSS and JavaScript. 
+      It's fast, responsive, and uses local storage to keep data secure.
       </span>
     </Style.Container>
   );
