@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     border: 0;
+    padding: 0;
     outline: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -33,7 +34,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: var(--lightestGrey);
+    background-color: #000000;
     transition: background-color 0.25s linear;
     width: 100%;
 
@@ -59,11 +60,6 @@ const GlobalStyle = createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     background-color: black;
    }
-
-   /* TODO: Added a h1 styling here */
-    h1 {
-      border: 10px solid red;
-    }
 `;
 
 export default GlobalStyle;

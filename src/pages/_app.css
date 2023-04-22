@@ -99,8 +99,3 @@ TODO: declare a root, assigning values to the reusable values in the Figma. i.e 
     --width: 95%;
   }
 }
-
-/* TODO: Added a h1 styling here */
-h1 {
-  color: red;
-}

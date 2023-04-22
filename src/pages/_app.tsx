@@ -10,11 +10,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <GlobalStyle />
       <Header />
-      <Footer />
       {/* TODO: Note that this should be beneath this component, you can absolute
       position it beneath but this component is essentially the content of your
       page and ypur footer should be beneath it. */}
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
