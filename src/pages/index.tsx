@@ -13,8 +13,12 @@ export default function Home() {
       <Hero />
       <FeaturedProjects />
       <Technologies />
-      <Resume />
+   
       <AboutMe />
     </PageLayout>
   );
 }
+// Insert compent if you want to use it later. 
+ //<Resume />
+
+ // Technologies is used as resume. 

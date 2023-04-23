@@ -18,5 +18,13 @@ export const Style = {
       color: #ffffff;
       margin-bottom: 25px;
     }
+
+
+
+
+
+
+
+    
   `,
 };
