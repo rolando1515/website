@@ -6,7 +6,16 @@ export function Technologies() {
     <div>
     <h2>Experience</h2> 
     </div>
-    <div>    <h3>Name</h3>    </div>
+    <div>    <h3>QA Engineer (Remote)</h3>    </div>
+    <div>    <h4>date </h4>    </div>
+    <p>Employer Name</p>
+      <ul>
+        <li>Responsibility 1</li>
+        <li>Responsibility 2</li>
+        <li>Responsibility 3</li>
+      </ul>
+
+
     
    
 
