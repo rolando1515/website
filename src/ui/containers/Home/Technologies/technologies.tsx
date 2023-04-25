@@ -6,14 +6,19 @@ export function Technologies() {
     <div>
     <h2>Experience</h2> 
     </div>
-    <div>    <h3>QA Engineer (Remote)</h3>    </div>
-    <div>    <h4>date </h4>    </div>
-    <p>Employer Name</p>
-      <ul>
+    
+    <div>    
+      <h3>Test-Engineer</h3><ul>
+        <p className='employer'>Employer Name</p>
         <li>Responsibility 1</li>
         <li>Responsibility 2</li>
         <li>Responsibility 3</li>
-      </ul>
+      </ul>     
+    </div>
+    <div>    <h4>Jan 2023-Present</h4>    </div>
+    
+    
+   
 
 
     

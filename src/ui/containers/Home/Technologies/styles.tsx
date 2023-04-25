@@ -17,82 +17,59 @@ export const Style = {
       text-transform: uppercase;
       color: #ffffff;
       margin-bottom: 25px;
+      margin-right: 20px;
+      text-align: left;
+      
     }
 
     h3 {font-family: 'Inter';
-      font-style: normal;
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 22px;
-      color: #ffffff;
-      margin-bottom: 25px;
-      margin-left: 200px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ffffff;
+      //  text-align: center;
+      // margin-left: 100px;
+       // margin-right: 200px;
     }
-
-
-      .resume {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 316px;
-  height: 29px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  color: #FFFFFF;
-}
-
-.name {
-  margin-top: 10px;
-}
-
-.contact {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.section {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.section h2 {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  margin-bottom: 10px;
-}
-
-.section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.section ul li {
-  margin-bottom: 10px;
-}
-
-.section ul li h3 {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  margin-bottom: 5px;
-}
-
-.section ul li p {
-  font-size: 14px;
-  line-height: 17px;
-  margin: 0;
-  padding: 0;
-}
+    h4 {width: 142px;
+        height: 24px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #C4C4C4;
+       text-align: left;
+      //  margin-left: 200px;
+      }
+      li{width: 852px;
+         height: 24px;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 300;
+         font-size: 16px;
+         line-height: 24px;
+         color: #C4C4C4;
+       //   margin-left: 200px;
+         // margin-right: 200px;
 
 
 
 
+        }
 
+      .employer {width: 171px;
+                 height: 24px;
+                 font-family: 'Inter';
+                 font-style: normal;
+                 font-weight: 300;
+                 font-size: 14px;
+                 line-height: 24px;
+                 color: #6CACE4;
+                }
+
+ 
 
     
   `,
