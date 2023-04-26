@@ -5,6 +5,7 @@ import {
   Resume,
   Technologies,
 } from 'ui/containers/Home';
+import { Technologies1 } from 'ui/containers/Home/Technologies/technologies';
 import { PageLayout } from 'ui/layouts/pageLayout';
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
     <PageLayout>
       <Hero />
       <FeaturedProjects />
-      <Technologies />
-   
+      <Technologies/>
+      <Technologies1/>
+      
       <AboutMe />
     </PageLayout>
   );

@@ -26,11 +26,12 @@ export const Style = {
         font-style: normal;
         font-weight: 300;
         font-size: 24px;
-        line-height: 29px;
+        line-height: 22px;
         color: #ffffff;
       //  text-align: center;
-      // margin-left: 100px;
-       // margin-right: 200px;
+      margin-left: 100px;
+      margin-bottom: 20px;
+     
     }
     h4 {width: 142px;
         height: 24px;
@@ -38,10 +39,12 @@ export const Style = {
         font-style: normal;
         font-weight: 300;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 0px;
         color: #C4C4C4;
-       text-align: left;
-      //  margin-left: 200px;
+        
+        
+       
+      
       }
       li{width: 852px;
          height: 24px;
@@ -51,14 +54,10 @@ export const Style = {
          font-size: 16px;
          line-height: 24px;
          color: #C4C4C4;
-       //   margin-left: 200px;
+         margin-left: 115px;
          // margin-right: 200px;
-
-
-
-
         }
-
+       
       .employer {width: 171px;
                  height: 24px;
                  font-family: 'Inter';
@@ -67,10 +66,28 @@ export const Style = {
                  font-size: 14px;
                  line-height: 24px;
                  color: #6CACE4;
+                 margin-left: 103px;
                 }
 
  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
     
   `,
 };
