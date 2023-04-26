@@ -26,11 +26,14 @@ lifecycle.</li>
     </Style.Container>
   );
 }
+//There has to be a cleaner way to do this but I'm not sure how.
+// Why is the h4 conflicting?
 
 export function Technologies1() {
   return (
     <Style.Container>
-    
+      
+    <div>................................</div>
     <div>    
       <h3>Test-Engineer</h3><ul>
         <p className='employer'>Employer Name</p>
@@ -39,7 +42,7 @@ export function Technologies1() {
         <li>Responsibility 3</li>
       </ul>     
     </div>
-    <div>    <h4>  July 2022 – December 2022 </h4>    </div>
+    <div>    <h4>July 2022-December 2022</h4>    </div>
     
     </Style.Container>
   );
