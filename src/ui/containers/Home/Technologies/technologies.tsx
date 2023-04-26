@@ -42,7 +42,7 @@ export function Technologies1() {
         <li>Responsibility 3</li>
       </ul>     
     </div>
-    <div>    <h4>July 2022-December 2022</h4>    </div>
+        <h4>July 2022-December 2022</h4>    
     
     </Style.Container>
   );
