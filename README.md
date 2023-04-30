@@ -413,12 +413,15 @@ xxxxxxx ROLAND xxxxxxxxx
 The header and footer are now styled. I used the figma to get the SVG and the border. I also added the background color to the header and footer. You can copy and paste the SVG directly into the code. I created a footer_style.tsx file to style the footer. Here is where the css is coming from. Then the footer.tsx file is where the footer is being rendered. The footer.tsx file is being rendered in the _app.tsx file. **Note** arrange the code so it is easier to read. This is what happened when you tried to arrange the svg. Also arrange the svg through css.
 
 xxxxxxx Roland xxxxxxxxx
-I am having problems with the second job on the experience section. 
-i had to space it out using this ................................ but i know is not the correct way. 
+
+1-I am having problems with the second job on the experience section.
+i had to space it out using this ................................ but i know is not the correct way.
 Also something is happening with the dates on the second job.
+2-How we are going to approach the redirection for the projects and github.
+3-How we are going to incorporate the picture of the projects.
+    rolandol.com if you go to my website you can see that the images do not show. How can I avoid this in the future.
 
-
-Now I need to know how to incorpoate the scroll into view.
+4-I need to know how to incorpoate the scroll into view.
 
 I am assuming that I need to create a div with the ID called projects
 something like this
