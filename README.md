@@ -413,6 +413,10 @@ xxxxxxx ROLAND xxxxxxxxx
 The header and footer are now styled. I used the figma to get the SVG and the border. I also added the background color to the header and footer. You can copy and paste the SVG directly into the code. I created a footer_style.tsx file to style the footer. Here is where the css is coming from. Then the footer.tsx file is where the footer is being rendered. The footer.tsx file is being rendered in the _app.tsx file. **Note** arrange the code so it is easier to read. This is what happened when you tried to arrange the svg. Also arrange the svg through css.
 
 xxxxxxx Roland xxxxxxxxx
+I am having problems with the second job on the experience section. 
+i had to space it out using this ................................ but i know is not the correct way. 
+Also something is happening with the dates on the second job.
+
 
 Now I need to know how to incorpoate the scroll into view.
 
