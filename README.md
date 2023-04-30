@@ -411,3 +411,53 @@ Great work! The styling for the footer elements have a border & SVG, can you get
 xxxxxxx ROLAND xxxxxxxxx
 
 The header and footer are now styled. I used the figma to get the SVG and the border. I also added the background color to the header and footer. You can copy and paste the SVG directly into the code. I created a footer_style.tsx file to style the footer. Here is where the css is coming from. Then the footer.tsx file is where the footer is being rendered. The footer.tsx file is being rendered in the _app.tsx file. **Note** arrange the code so it is easier to read. This is what happened when you tried to arrange the svg. Also arrange the svg through css.
+
+xxxxxxx Roland xxxxxxxxx
+
+Now I need to know how to incorpoate the scroll into view.
+
+I am assuming that I need to create a div with the ID called projects
+something like this
+  
+  ````javascript
+<div id="project-section">
+  {/* content of the section */}
+</div>
+
+Then I need to create a link that will take me to the section. For example 
+  
+  ````javascript
+<link href="#project-section">Go to Project Section</link>
+
+Then an event listener to the link that scrolls to the section. For example 
+Do I need to add this to the current function or create a new function? 
+
+````typescript
+import { useRef } from 'react'
+
+function ProjectSection() {
+  const bottomSectionRef = useRef(null)
+
+  const handleGoToProjectSection = () => {
+    projectSectionRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  return (
+    <div>
+      {/* content of the page */}
+      <div ref={projectSectionRef} id="project-section">
+        {/* content of the bottom section */}
+      </div>
+      <Link href="#project-section">
+        <a onClick={handleGoToBottomSection}>Go to bottom section</a>
+      </Link>
+    </div>
+  )
+}
+
+export default BottomSection
+
+
+
+
+````  
