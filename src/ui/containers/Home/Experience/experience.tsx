@@ -24,7 +24,17 @@ export function Experience() {
         {' '}
         <h4>Jan 2023-Present</h4>{' '}
       </div>
+
     </Style.Container>
+
+
+
+
+
+
+
+
+
   );
 }
 //There has to be a cleaner way to do this but I'm not sure how.

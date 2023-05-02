@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <FeaturedProjects />
       <Experience />
-      <Experience1 />
+      
       <AboutMe />
     </PageLayout>
   );
