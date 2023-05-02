@@ -5,6 +5,7 @@ import {
   Hero,
   Resume,
 } from 'ui/containers/Home';
+import { Experience1 } from 'ui/containers/Home/Experience/experience';
 import { PageLayout } from 'ui/layouts/pageLayout';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <FeaturedProjects />
       <Experience />
+      <Experience1 />
       <AboutMe />
     </PageLayout>
   );

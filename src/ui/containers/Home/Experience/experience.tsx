@@ -30,20 +30,30 @@ export function Experience() {
 //There has to be a cleaner way to do this but I'm not sure how.
 // Why is the h4 conflicting?
 
-export function Technologies1() {
-  return (
-    <Style.Container>
-      <div>................................</div>
-      <div>
-        <h3>Test-Engineer</h3>
-        <ul>
-          <p className="employer">Employer Name</p>
-          <li>Responsibility 1</li>
-          <li>Responsibility 2</li>
-          <li>Responsibility 3</li>
-        </ul>
-      </div>
-      <h4>July 2022-December 2022</h4>
-    </Style.Container>
-  );
-}
+export function Experience1() {
+    return (
+      <Style.Container>
+        <div>
+          <h2></h2>
+        </div>
+  
+        <div>
+          <h3>Backend engineer intern </h3>
+          <ul>
+            <p className="employer">Employer Name</p>
+            <li>Example 1</li>
+            <li>example2</li>
+            <li>
+              Work with cross-functional teams to ensure quality throughout the
+              software development lifecycle.
+            </li>
+            <li>Carry out functional and regression testing.</li>
+          </ul>
+        </div>
+        <div>
+          {' '}
+          <h4>Jan 2023-Present</h4>{' '}
+        </div>
+      </Style.Container>
+    );
+  }
