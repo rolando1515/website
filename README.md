@@ -414,15 +414,6 @@ The header and footer are now styled. I used the figma to get the SVG and the bo
 
 xxxxxxx Roland xxxxxxxxx
 
-1-I am having problems with the second job on the experience section.
-i had to space it out using this ................................ but i know is not the correct way.
-Also something is happening with the dates on the second job.
-2-How we are going to approach the redirection for the projects and github.
-3-How we are going to incorporate the picture of the projects.
-    rolandol.com if you go to my website you can see that the images do not show. How can I avoid this in the future.
-
-4-I need to know how to incorpoate the scroll into view.
-
 I am assuming that I need to create a div with the ID called projects
 something like this
   
