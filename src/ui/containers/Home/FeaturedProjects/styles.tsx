@@ -24,6 +24,10 @@ export const Style = {
     div.projects {
       display: flex;
       justify-content: space-between;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
     }
   `,
 };

@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
     font-family: 'altone';
     font-display: block;
+    scroll-behavior: smooth;
 
     // remove blue highlight that renders over interactable elements when they
     // are tapped

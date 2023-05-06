@@ -7,6 +7,11 @@ export const Style = {
     display: flex;
     flex-direction: column;
 
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
     figure {
       width: 100%;
       height: 65%;

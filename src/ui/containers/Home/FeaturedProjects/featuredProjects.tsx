@@ -16,7 +16,7 @@ const project_data = [
 
 export function FeaturedProjects() {
   return (
-    <Style.Container>
+    <Style.Container id="projects">
       <h2>FEATURED PROJECTS</h2>
       <div className="projects">
         {project_data.map(({ detail, title }) => (

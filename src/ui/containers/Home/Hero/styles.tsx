@@ -33,6 +33,11 @@ export const Style = {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+
+      @media (max-width: 768px) {
+        font-size: 40px;
+        line-height: 125%;
+      }
     }
 
     p {
