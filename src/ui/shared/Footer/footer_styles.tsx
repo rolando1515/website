@@ -9,6 +9,12 @@ export const Style = {
     place-items: center;
     background-color: #000000;
 
+    @media (max-width: 768px) {
+      span {
+        margin-bottom: 10px;
+      }
+    }
+
     .flex-container {
       display: flex;
     }
@@ -27,6 +33,10 @@ export const Style = {
       align-items: center;
       justify-content: space-between;
       color: #ffffff;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
     }
 
     .footer-contact {
@@ -45,6 +55,10 @@ export const Style = {
       margin: 0;
       padding: 0;
       display: flex;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
     }
     // The inline block is what makes it so the list items are next to each other.
     li {
@@ -61,6 +75,11 @@ export const Style = {
       text-align: center;
       padding: 5px 20px;
       align-items: center;
+
+      @media (max-width: 768px) {
+        margin: 0;
+        margin-bottom: 10px;
+      }
 
       svg {
         display: flex;

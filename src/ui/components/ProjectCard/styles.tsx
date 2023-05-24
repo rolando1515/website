@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Style = {
-  Container: styled.article`
+  Container: styled.article<{ image: string }>`
     width: 45%;
     height: 500px;
     display: flex;
@@ -16,6 +16,10 @@ export const Style = {
       width: 100%;
       height: 65%;
       border: 1px solid white;
+      border-radius: 4px;
+      background: ${({ image }) => `url(${image})`};
+      background-position: top;
+      background-size: cover;
     }
 
     hgroup {

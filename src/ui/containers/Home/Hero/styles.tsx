@@ -17,6 +17,10 @@ export const Style = {
       font-size: 16px;
       line-height: 19px;
       color: #ffffff;
+
+      @media (max-width: 768px) {
+        margin-bottom: 25px;
+      }
     }
 
     h1 {
@@ -35,8 +39,8 @@ export const Style = {
       background-clip: text;
 
       @media (max-width: 768px) {
-        font-size: 40px;
-        line-height: 125%;
+        font-size: 45px;
+        line-height: 105%;
       }
     }
 
@@ -49,6 +53,11 @@ export const Style = {
       text-align: justify;
       color: #f0f0f0;
       margin: 25px 0;
+
+      @media (max-width: 768px) {
+        margin: 15px 0;
+        font-size: 16px;
+      }
     }
 
     button {

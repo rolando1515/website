@@ -4,12 +4,14 @@ import { Style } from './styles';
 export function ProjectCard({
   title,
   detail,
+  image,
 }: {
   title: string;
   detail: string;
+  image: string;
 }) {
   return (
-    <Style.Container>
+    <Style.Container image={image}>
       <figure></figure>
       <hgroup>
         <h3>{title}</h3>
