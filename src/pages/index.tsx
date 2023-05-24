@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Rolans's Portfolio</title>
+        <title>Roland's Portfolio</title>
         <meta name="Welcome to Roland Labrador's portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

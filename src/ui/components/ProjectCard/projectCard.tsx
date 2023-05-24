@@ -5,10 +5,14 @@ export function ProjectCard({
   title,
   detail,
   image,
+  link,
+  github,
 }: {
   title: string;
   detail: string;
   image: string;
+  link: string;
+  github: string;
 }) {
   return (
     <Style.Container image={image}>
@@ -16,8 +20,12 @@ export function ProjectCard({
       <hgroup>
         <h3>{title}</h3>
         <div>
-          <Github />
-          <LinkIcon />
+          <a href={github} target="_blank">
+            <Github />
+          </a>
+          <a href={link} target="_blank">
+            <LinkIcon />
+          </a>
         </div>
       </hgroup>
 
