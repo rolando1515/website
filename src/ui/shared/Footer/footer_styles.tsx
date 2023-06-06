@@ -76,6 +76,13 @@ export const Style = {
       padding: 5px 20px;
       align-items: center;
 
+      a {
+        font-size: 12px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+      }
+
       @media (max-width: 768px) {
         margin: 0;
         margin-bottom: 10px;
@@ -83,7 +90,6 @@ export const Style = {
 
       svg {
         display: flex;
-        /* height: 20px; */
         width: 15px;
         margin-right: 15px;
       }

@@ -4,7 +4,7 @@ import { Style } from './styles';
 const project_data = [
   {
     title: 'Vroom Stock App',
-    image: 'vroom.webp',
+    image: '/project_pictures/vroomstockapp.png',
     github: '',
     link: 'https://rolando1515-vroomstockpriceapp-myapp-s6gjuc.streamlit.app/',
     detail:
@@ -12,7 +12,7 @@ const project_data = [
   },
   {
     title: 'To do list',
-    image: 'task-list.webp',
+    image: '/project_pictures/taskList.png',
     github: '',
     link: 'https://to-do-list-r4qd645pj-rolando1515.vercel.app/',
     detail:
