@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-// your logo should be larger than the links
-// To make it easier go to figma and copy the styles from there.
-// try practicing css here https://developer.mozilla.org/en-US/docs/Web/CSS/position.
+
+// practice css here https://developer.mozilla.org/en-US/docs/Web/CSS/position.
 export const Style = {
   Container: styled.header`
     height: 123px;
