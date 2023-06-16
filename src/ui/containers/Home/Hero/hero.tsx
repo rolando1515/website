@@ -10,7 +10,7 @@ export function Hero() {
         I'm a QA engineer based in South Florida......blah blah blah blah blah
       </p>
       <button>
-        Say hi <RightArrow />
+         <RightArrow />
       </button>
     </Style.Container>
   );
