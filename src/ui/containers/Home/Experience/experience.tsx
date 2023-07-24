@@ -3,37 +3,39 @@ import { Style } from './styles';
 
 const experience_data = [
   {
-    title: 'Test Engineer',
-    employer_name: '',
+    title: 'QA Engineer',
+    employer_name: 'RBI / Popeyes ',
     responsibilities: [
-      'Execute test cases manual cases and analyze results.',
-      'Create logs to document testing phases and defects.',
-      'Work with cross-functional teams to ensure quality throughout the software development lifecycle.',
-      'Carry out functional and regression testing.',
+      '•	Validated and verified fixes and enhancement done by the developing team.',
+      '•	Conducted through smoke tests on software application to identify any critical issues, defects, or regressions. (Using TestRail.)',
+      '•	Executed regressions tests according to the defined test plan, documenting and reporting any deviation or failures encountered during the testing process.',
+      
     ],
-    duration: 'Jan 2023 - Present',
+    duration: 'May 2023 - July 2023',
   },
   {
-    title: 'Backend Engineer Intern',
-    employer_name: '',
+    title: 'QA Engineer',
+    employer_name: 'Treehouse Strategy',
     responsibilities: [
-      'Execute test cases manual cases and analyze results.',
-      'Create logs to document testing phases and defects.',
-      'Work with cross-functional teams to ensure quality throughout the software development lifecycle.',
-      'Carry out functional and regression testing.',
+      '•	Prepared comprehensive and well-structured test plans.',
+      '•	Diagnosed, isolated and documented bugs encountered during testing.',
+      '•	Work with cross-functional teams to ensure quality throughout the software development lifecycle.',
+      '•	Carry out functional and regression testing.',
+      '•	Created automated test scripts using Python3 and selenium.',
     ],
-    duration: 'Jan 2023 - Present',
+    duration: 'Jan 2023 - May 2023',
   },
   {
-    title: 'Backend Engineer Intern',
-    employer_name: '',
+    title: 'Software Engineer Intern',
+    employer_name: 'STYLERE.CO',
     responsibilities: [
-      'Execute test cases manual cases and analyze results.',
-      'Create logs to document testing phases and defects.',
-      'Work with cross-functional teams to ensure quality throughout the software development lifecycle.',
-      'Carry out functional and regression testing.',
+      '•	Developed, implemented and tested APIs using postman and Flask.',
+      '•	Created databases and schemas using MySQL and SQL Alchemy library.',
+      '•	Designed, developed and tested mobile applications using React and Flask framework.',
+      '•	Diagnosed and fixed application issues.',
+      '•	Created automated test cases using selenium.',
     ],
-    duration: 'Jan 2023 - Present',
+    duration: 'Jun 2022 - Dec 2022',
   },
 ];
 
