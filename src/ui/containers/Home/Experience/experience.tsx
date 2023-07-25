@@ -15,7 +15,7 @@ const experience_data = [
   },
   {
     title: 'QA Engineer',
-    employer_name: 'Treehouse Strategy',
+    employer_name:'Treehouse-Strategy',
     responsibilities: [
       '•	Prepared comprehensive and well-structured test plans.',
       '•	Diagnosed, isolated and documented bugs encountered during testing.',
