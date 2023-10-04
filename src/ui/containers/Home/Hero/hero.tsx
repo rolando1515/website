@@ -7,7 +7,7 @@ export function Hero() {
       <span>Hey, I'm</span>
       <h1>Rolando Labrador</h1>
       <p>
-        I'm a QA engineer based in South Florida.
+        Welcome to my personal website. 
       </p>
       <button>
          <RightArrow />
