@@ -13,7 +13,7 @@ const experience_data = [
       '•	Carry out functional and regression testing.',
       '•	Created automated test scripts using Python3 and selenium.',
     ],
-    duration: 'Jan 2023 - May 2023',
+    duration: 'Jan 2023 - Present',
   },
   {
     title: 'Software Engineer Intern',

@@ -8,7 +8,7 @@ export const Style = {
     display: flex;
     flex-direction: column;
     padding: 75px 0;
-
+    
     h2 {
       font-family: 'Inter';
       font-style: normal;
