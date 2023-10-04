@@ -2,17 +2,7 @@ import { ExperienceCard } from 'ui/components/ExperienceCard/experienceCard';
 import { Style } from './styles';
 
 const experience_data = [
-  {
-    title: 'QA Engineer',
-    employer_name: 'RBI / Popeyes ',
-    responsibilities: [
-      '•	Validated and verified fixes and enhancement done by the developing team.',
-      '•	Conducted through smoke tests on software application to identify any critical issues, defects, or regressions. (Using TestRail.)',
-      '•	Executed regressions tests according to the defined test plan, documenting and reporting any deviation or failures encountered during the testing process.',
-      
-    ],
-    duration: 'May 2023 - July 2023',
-  },
+  
   {
     title: 'QA Engineer',
     employer_name:'Treehouse-Strategy',
