@@ -3,12 +3,12 @@ import { Style } from './styles';
 
 const project_data = [
   {
-    title: ' App',
+    title: ' Car Market place App',
     image: '/project_pictures/vetee.png',
     github: 'https://github.com/rolando1515/nextjs-ecommerce.git/',
-    link: 'https://github.com/rolando1515/nextjs-ecommerce.git/',
+    link: 'https://nextjs-ecommerce-eta-sandy.vercel.app/',
     detail:
-      'This project is a Next.js e-commerce application that serves as a car buying and selling platform, inspired by the popular website Vroom.com.The application allows users to browse, buy, and sell cars online.It utilizes a MongoDB database and Prisma ORM for efficient data management.The front-end is built with React and Next.js, while Tailwind CSS with DaisyUI is used for styling.For QA Cypress is used for end-to-end testing.',
+      'This project is a Next.js e-commerce application that serves as a car buying and selling platform.The application allows users to browse, buy, and sell cars online.It utilizes a MongoDB database and Prisma ORM for efficient data management.The front-end is built with React and Next.js, while Tailwind CSS with DaisyUI is used for styling.For QA Cypress is used for end-to-end testing.',
   },
   {
     title: 'Vroom Stock App',
