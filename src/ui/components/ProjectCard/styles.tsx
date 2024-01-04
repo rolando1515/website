@@ -63,5 +63,11 @@ export const Style = {
       line-height: 24px;
       color: #6cace4;
     }
+
+    .projectImage {
+      width: 100%; /* or any fixed value */
+      height: 200px; /* or any fixed value */
+      object-fit: cover;
+    }
   `,
 };

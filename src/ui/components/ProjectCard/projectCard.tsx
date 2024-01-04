@@ -1,6 +1,7 @@
 import { Github, Link as LinkIcon } from '../Icons';
 import { Style } from './styles';
 
+
 export function ProjectCard({
   title,
   detail,
@@ -16,7 +17,9 @@ export function ProjectCard({
 }) {
   return (
     <Style.Container image={image}>
-      <figure></figure>
+      <figure>
+    
+      </figure>
       <hgroup>
         <h3>{title}</h3>
         <div>
