@@ -15,8 +15,8 @@ const project_data = [
     image: '/project_pictures/vroomstockapp.png',
     github: 'https://github.com/rolando1515/vroomstockpriceapp',
     link: 'https://rolando1515-vroomstockpriceapp-myapp-s6gjuc.streamlit.app/',
-    detail:
-      'Python-based Stock Price Web Application. Using Streamlit and yfinance libraries, this app fetches company information and real-time stock prices for S&P 500 companies. With less than 50 lines of code.',
+    detail: 
+      'Python-based Stock Price Web Application. Using Streamlit and yfinance libraries, this app fetches company information and real-time stock prices for S&P 500 companies. With less than 50 lines of code. It offers a streamlined tool for quick market analysis, aiding investors in making informed decisions efficiently. The app deployment on Streamlit ensures user-friendly accessibility.',
   },
 
 ];
