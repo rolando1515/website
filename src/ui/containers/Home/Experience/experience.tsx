@@ -2,6 +2,19 @@ import { ExperienceCard } from 'ui/components/ExperienceCard/experienceCard';
 import { Style } from './styles';
 
 const experience_data = [
+  {
+    title: 'Junior QA Engineer',
+    employer_name:'Termitek',
+    responsibilities: [
+      '•	Worked with Daisy UI for streamlined UI development.',
+      '•	Work with cross-functional teams to ensure quality throughout the software development lifecycle.',
+      '•	Executed manual cases and analyze results.',
+      '•	Developed interactive applications using NextJS, TypeScript, HTML, and Tailwind.',
+      '•	Carry out functional and regression testing.',
+      '•	Managed databases with hands-on experience in MongoDB.',
+    ],
+    duration: '',
+  },
   
   {
     title: 'QA Engineer',
@@ -13,7 +26,7 @@ const experience_data = [
       '•	Carry out functional and regression testing.',
       '•	Created automated test scripts using Python3 and selenium.',
     ],
-    duration: 'Jan 2023 - Present',
+    duration: '',
   },
   {
     title: 'Software Engineer Intern',
@@ -25,7 +38,7 @@ const experience_data = [
       '•	Diagnosed and fixed application issues.',
       '•	Created automated test cases using selenium.',
     ],
-    duration: 'Jun 2022 - Dec 2022',
+    duration: '',
   },
 ];
 
