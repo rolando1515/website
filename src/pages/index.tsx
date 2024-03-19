@@ -19,7 +19,7 @@ export default function Home() {
       <PageLayout>
         <Hero />
         <FeaturedProjects />
-        <Experience />
+        
 
         
       </PageLayout>
@@ -28,5 +28,5 @@ export default function Home() {
 }
 // Insert compent if you want to use it later.
 //<Resume />
-
+//<Experience />
 // Technologies is used as resume.
